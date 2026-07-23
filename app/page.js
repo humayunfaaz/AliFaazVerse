@@ -1,19 +1,3 @@
-// import Image from "next/image";
-
-// export default function Home() {
-//   return (
-//     <div>
-      
-
-
-
-
-
-
-//     </div>
-//   );
-// }
-import Footer from "@/components/footer";
 
 export default function Home() {
   return (

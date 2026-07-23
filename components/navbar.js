@@ -39,23 +39,9 @@ const navbar = () => {
                     </Link>
                 </li>
 
-                <li>
-                    <Link
-                        href="/services"
-                        className="px-5 py-2 rounded-[34px] transition-all duration-300 hover:bg-cyan-500 hover:shadow-lg cursor-pointer"
-                    >
-                        Services
-                    </Link>
-                </li>
 
-                <li>
-                    <Link
-                        href="/Portfolio"
-                        className="px-5 py-2 rounded-[34px] transition-all duration-300 hover:bg-cyan-500 hover:shadow-lg cursor-pointer"
-                    >
-                        Portfolio
-                    </Link>
-                </li>
+
+
 
                 <li>
                     <Link
