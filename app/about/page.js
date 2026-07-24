@@ -131,7 +131,7 @@ export default function About() {
         </div>
 
       </section>
-            {/* ================= My Journey ================= */}
+      {/* ================= My Journey ================= */}
 
       <section className="max-w-7xl mx-auto px-6 py-24">
 
@@ -344,7 +344,7 @@ export default function About() {
         </div>
 
       </section>
-            {/* ================= My Mission ================= */}
+      {/* ================= My Mission ================= */}
 
       <section className="max-w-7xl mx-auto px-6 py-24">
 
@@ -531,12 +531,19 @@ export default function About() {
 
           <div className="flex flex-wrap justify-center gap-6 mt-12">
 
-            <a
+            {/* <a
               href="/resume.pdf"
               download
               className="px-8 py-4 bg-cyan-500 rounded-full font-semibold hover:bg-cyan-400 transition duration-300"
             >
               📄 Download Resume
+            </a> */}
+            <a
+              href="/resume.pdf"
+              download
+              className="inline-block px-8 py-4 bg-cyan-400 text-black rounded-full font-semibold hover:bg-cyan-300 transition"
+            >
+              Download Resume
             </a>
 
             <a
@@ -552,7 +559,7 @@ export default function About() {
 
       </section>
 
-    
+
 
     </main>
   );
