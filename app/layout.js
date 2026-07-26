@@ -14,9 +14,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata = {
+//   title: "AliFaazVerse",
+//   description: "A website for Ali Faaz.",
+// };
 export const metadata = {
-  title: "AliFaazVerse",
-  description: "A website for Ali Faaz.",
+  title: "Ali Faaz | AI Software Engineer",
+  description:
+    "Portfolio of Ali Faaz - AI Software Engineer, Full Stack Developer, and Problem Solver.",
 };
 
 export default function RootLayout({ children }) {
