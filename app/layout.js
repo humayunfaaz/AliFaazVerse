@@ -14,26 +14,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// export const metadata = {
-//   title: "AliFaazVerse",
-//   description: "A website for Ali Faaz.",
-// };
 export const metadata = {
-  title: "Ali Faaz | AI Software Engineer",
+  title: "Ali Faaz | CSE Student & AI Builder",
   description:
-    "Portfolio of Ali Faaz - AI Software Engineer, Full Stack Developer, and Problem Solver.",
+    "Ali Faaz's personal portfolio — projects, learning journey, and experiments in software development and AI.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-slate-950 font-sans text-white antialiased`}
+      >
         <Navbar />
-
-        <main className="flex-1">
-          {children}
-        </main>
-
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>
